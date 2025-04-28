@@ -11216,7 +11216,7 @@ p {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 100%;
+  width: 363px;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
   display: -webkit-box;
@@ -11231,7 +11231,7 @@ p {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  text-align: left;
   padding: 0 20px;
   color: #fff;
   opacity: 0;
