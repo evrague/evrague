@@ -567,6 +567,9 @@ pre code {
   .container {
     max-width: 960px;
   }
+  .hidden-image-phone{
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -11554,7 +11557,20 @@ pre .code {
   .header .header-content .header-mono {
     letter-spacing: 2px;
   }
+
+  .hidden-image-phone{
+    display: block;
+    position: absolute;
+    top: 81%;
+    left: 37%;
+    border-radius: 51px;
+    border: 7px solid white;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
 }
+
 
 .header-title {
   font-size: 2.4rem;
