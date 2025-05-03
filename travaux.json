@@ -40,19 +40,6 @@
     },
 
     {
-        "title" :"Sophie Bluel",
-        "image": "sophie1.png",
-        "lien_site" : "https://github.com/evrague/sophieBluel",
-        "code_source" : "https://github.com/evrague/sophieBluel",
-        "competences" : [
-            "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
-            "Manipuler les éléments du DOM avec JavaScript",
-            "Gérer les événements utilisateurs avec JavaScript"
-        ],
-        "type" : "frontend"
-    },
-
-    {
         "title" : "Booki",
         "image": "booki1.png",
         "lien_site" : "https://evrague.github.io/Booki/",
@@ -63,6 +50,21 @@
             "Implémenter une interface responsive avec HTML et CSS"
         ],
         "type" : "frontend"
+    },
+
+    {
+        "title" :"Sophie Bluel",
+        "image": "sophie1.png",
+        "lien_site" : "https://github.com/evrague/sophieBluel",
+        "code_source" : "https://github.com/evrague/sophieBluel",
+        "competences" : [
+            "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+            "Manipuler les éléments du DOM avec JavaScript",
+            "Gérer les événements utilisateurs avec JavaScript"
+        ],
+        "type" : "frontend"
     }
+
+    
 
 ]
