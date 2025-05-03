@@ -1,0 +1,67 @@
+[
+    {
+        "title":"Mon Vieux Grimoire",
+        "image": "mvg.png",
+        "lien_site" : "https://github.com/evrague/Mon_vieux_grimoire",
+        "code_source" : "https://github.com/evrague/Mon_vieux_grimoire",
+        "competences" : [
+            "Développement back-end avec NodeJS",
+            "Implémenter un modèle logique de données",
+            "Mettre en œuvre des opérations CRUD de manière sécurisée",
+            "Stocker des données de manière sécurisée"
+        ],
+        "type" : "backend"
+    },
+
+    {
+        "title": "kasa",
+        "image": "kasa.png",
+        "lien_site" : "https://github.com/evrague/kasa",
+        "code_source" : "https://github.com/evrague/kasa",
+        "competences" : [
+            "Configurer la navigation entre les pages de l'application avec React Router",
+            "Initialiser une application avec Create React App",
+            "Développer des éléments de l'interface d'un site web grâce à des composants React"
+        ],
+        "type" : "frontend"
+    },
+
+    {
+        "title" : "Nina Carducci",
+        "image": "nina1.png",
+        "lien_site" : "https://github.com/evrague/Carducci",
+        "code_source" : "https://github.com/evrague/Carducci",
+        "competences" : [
+            "Optimiser les performances d’un site web",
+            "Débugger un site web grâce aux Chrome DevTools",
+            "Rédiger un cahier de recette pour tester un site"
+        ],
+        "type" : "frontend"
+    },
+
+    {
+        "title" :"Sophie Bluel",
+        "image": "sophie1.png",
+        "lien_site" : "https://github.com/evrague/sophieBluel",
+        "code_source" : "https://github.com/evrague/sophieBluel",
+        "competences" : [
+            "Récupérer les données utilisateurs dans le JavaScript via des formulaires",
+            "Manipuler les éléments du DOM avec JavaScript",
+            "Gérer les événements utilisateurs avec JavaScript"
+        ],
+        "type" : "frontend"
+    },
+
+    {
+        "image": "booki1.png",
+        "lien_site" : "https://evrague.github.io/Booki/",
+        "code_source" : "https://github.com/evrague/Booki/",
+        "competences" : [
+            "Intégration web avec HTML - CSS",
+            "Intégrer du contenu conformément à une maquette avec HTML et CSS",
+            "Implémenter une interface responsive avec HTML et CSS"
+        ],
+        "type" : "frontend"
+    }
+
+]
