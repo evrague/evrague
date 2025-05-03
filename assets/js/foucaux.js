@@ -44,11 +44,13 @@ $(window).on("load", function() {
 });
 
 
-fetch('/travaux.json')
+fetch('https://raw.githubusercontent.com/evrague/evrague/master/travaux.json')
   .then(response => response.json())
   .then(travaux => {
 
-    const portfolio_container = document.getElementById("portfolio-container");
+    // const portfolio_container = document.getElementById("porportfolio");
+    const iso = $('.portfolio-container').isotope(); // récupération instance
+
 
     travaux.forEach(travail => {
       const code_html = `
@@ -64,14 +66,25 @@ fetch('/travaux.json')
                                 <p class="text-light"><u><b>Code Source</b></u></p>
                             </a>
                             <ul>
-                                ${travail.competences.map(competence => `<li class="subtitle"> ${competence} </li>`).join('')}
+                                ${travail.competences.map(competence => `<li class="subtitle"> ${competence} </li>`)}
                             </ul>
                         </div>
                     </div>    
                 </div>              
             </div>`;
 
-            portfolio_container.innerHTML += code_html;
+            //portfolio_container.innerHTML += code_html;
+            // Créer l'élément DOM
+            const tempDiv = document.createElement("div");
+            tempDiv.innerHTML = code_html.trim();
+            const elem = tempDiv.firstChild;
+
+            // Ajouter à la page
+            document.getElementById("porportfolio").appendChild(elem);
+
+            // Ajouter dynamiquement à Isotope
+            iso.isotope('appended', $(elem));
+
     });
   })
   .catch(error=>{

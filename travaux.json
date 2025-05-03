@@ -53,6 +53,7 @@
     },
 
     {
+        "title" : "Booki",
         "image": "booki1.png",
         "lien_site" : "https://evrague.github.io/Booki/",
         "code_source" : "https://github.com/evrague/Booki/",
