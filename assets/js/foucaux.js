@@ -48,7 +48,6 @@ fetch('https://raw.githubusercontent.com/evrague/evrague/master/travaux.json')
   .then(response => response.json())
   .then(travaux => {
 
-    // const portfolio_container = document.getElementById("porportfolio");
     const iso = $('.portfolio-container').isotope(); // récupération instance
 
 
@@ -66,15 +65,13 @@ fetch('https://raw.githubusercontent.com/evrague/evrague/master/travaux.json')
                                 <p class="text-light"><u><b>Code Source</b></u></p>
                             </a>
                             <ul>
-                                ${travail.competences.map(competence => `<li class="subtitle"> ${competence} </li>`)}
+                                ${travail.competences.map(competence => `<li class="subtitle"> ${competence} </li>`).join('')}
                             </ul>
                         </div>
                     </div>    
                 </div>              
             </div>`;
 
-            //portfolio_container.innerHTML += code_html;
-            // Créer l'élément DOM
             const tempDiv = document.createElement("div");
             tempDiv.innerHTML = code_html.trim();
             const elem = tempDiv.firstChild;
