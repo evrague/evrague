@@ -564,12 +564,15 @@ pre code {
 }
 
 @media (min-width: 992px) {
+
   .container {
     max-width: 960px;
   }
+
   .hidden-image-phone{
     display: none;
   }
+  
 }
 
 @media (min-width: 1200px) {
@@ -2104,6 +2107,30 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .hidden-image-phone{
+    display: block;
+    width: 13%;
+    height: 10.5%;
+    position: absolute;
+    top: 90%;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    left: 37%;
+    transition: 1s all ease;
+  }
+
+  .hidden-image-phone:hover{
+    width: 14%;
+    height: 11%;
+    padding: 3px;
+  }
+
+
 }
 
 @media (max-width: 767.98px) {
@@ -11235,7 +11262,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: left;
-  padding: 0 20px;
+  padding: 0 30px;
   color: #fff;
   opacity: 0;
   visibility: hidden;
